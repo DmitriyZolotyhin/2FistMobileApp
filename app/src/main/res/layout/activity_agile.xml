@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAgile">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="337dp"
+        android:layout_height="452dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="140dp"
+        android:text="Agile — метод гибкой разработки программного обеспечения, предполагающий большое количество итераций. Документ Agile Manifesto описывает 4 идей и 12 принципов гибкого подхода, коротко его можно описать всего двумя пунктами:  Неформальные отношения важнее задокументированных. То есть устные договоренности между сотрудниками, между заказчиком и исполнителем важнее всего, что отражено в планах, договорах и техническом задании. Иначе говоря, клиент всегда прав. Работающий продукт — главная оценка прогресса. Важны не инструменты, решения, производительность и изящество, а тот факт, что все запланированные возможности реализованы. Несмотря на недостатки, Agile стала фундаментальной концепцией для разработки ПО и нашла отражение в других методологиях, речь о которых пойдет далее."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="37dp" />
+</android.support.constraint.ConstraintLayout>

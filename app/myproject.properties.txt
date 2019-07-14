@@ -1,0 +1,4 @@
+keystore=/Android2/2/app/Key/key.jks"
+keystore.password=password
+keyAlias=alias
+keyPassword=password

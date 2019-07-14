@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="328dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="588dp"
+        android:onClick="onClick"
+        android:text="@string/waterfall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="328dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginBottom="528dp"
+        android:onClick="onClick"
+        android:text="RUP (Rational Unified Process) — рациональный."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="328dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginBottom="473dp"
+        android:text="Agile — общая методология гибкой разработки."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="328dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginBottom="435dp"
+        android:text="Spiral — спиральный метод."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="328dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginBottom="364dp"
+        android:text="FDD (Feature Driven Development) — методология, рассматривающая будущие изменения."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="328dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginBottom="296dp"
+        android:text="Scrum — концепция работы в условиях сорванных сроков и идеологического кризиса."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="328dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginBottom="211dp"
+        android:text="XP (Extreme Programming) — экстремальная разработка в динамической среде."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="329dp"
+        android:layout_height="54dp"
+        android:text="Хочу играть"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+</android.support.constraint.ConstraintLayout>

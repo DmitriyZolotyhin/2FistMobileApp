@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityWaterfall">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="303dp"
+        android:layout_height="512dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginBottom="98dp"
+        android:text="Waterfall Модель. Waterfall относится к классическому пониманию разработки ПО. Весь процесс является жестким и линейным, имеет четкие цели для каждого этапа, новая фаза начинается по завершению предыдущей, нет возврата назад. Преимущества водопадной методологии — децентрализация и строгий контроль над сроками и качеством исполнения.  На практике Waterfall часто не оправдывает ожиданий, поскольку игнорирует динамические изменения. Так, после тестирования очень сложно откатить процесс и заложить функции, не учтенные на стадии разработки. Waterfall неэффективен ещё и потому, что предполагает временные простои сотрудников в рамках одного проекта. Тестирование проводится только в конце разработки, хотя проблемы, найденные на этом этапе — это дорогостоящие исправления."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

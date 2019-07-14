@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRup">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="352dp"
+        android:layout_height="463dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="178dp"
+        android:text="RUP — итеративный подход, который решает проблемы, которые есть у Waterfall. Чем хорош RUP:  Учитывает изменяющиеся требования. Как бы ни был хорош руководитель проекта, учесть всё в начале невозможно. Интеграция функций происходит постепенно, то есть каждая «деталь» проходит цикл разработки, проверки и внедрения в проект. Как следствие, снижаются риски и стоимость производства. Ранний выпуск продукта. ПО выходит с уменьшенной функциональностью, чтобы занять нишу на рынке и противостоять конкурентам, после чего обрастает «мясом». Повторное использование. При наращивании функциональности проще выделить типовые решения, которые сократят разработку. Постоянное обучение. Из-за частых итераций разработчики не имеют больших пауз между доработкой кода, поэтому профессиональный рост происходит плавно и безболезненно. Постоянное улучшение продукта. Итерации позволяют оценить проект не только с точки зрения соответствия плану и ТЗ, но и найти пути увеличения эффективности и качества продукта."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="29dp" />
+</android.support.constraint.ConstraintLayout>
